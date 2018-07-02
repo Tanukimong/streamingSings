@@ -1,0 +1,37 @@
+/* Begin with mobile screen*/
+
+#grid{
+  display: grid;
+  margin : auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+#grid #links{
+  display: grid;
+  border-left: none;
+  border-top: 1px solid gray;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding-left: 0px;
+  padding-top: 16px;
+}
+a{
+  color:black;
+  display: block;
+  text-decoration: none;
+}
+li{
+  padding: 12px;
+  font-size: 28px;
+}
+
+h1{
+  font: 60px black;
+  text-align: center;
+  margin: auto;
+  padding: 0;
+}
+
+ul{
+  margin: 0;
+}
