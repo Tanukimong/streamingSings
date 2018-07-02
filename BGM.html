@@ -4,48 +4,81 @@
   <title>tanukiMusicBox-BGM</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 자체 css파일 : tanuki_sub가져오기 -->
+  <link rel="stylesheet" href="tanuki_sub.css">
+  <!-- 아이콘 가져오기 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+  <ul>
+    <li class="home"><a href="index.html"><i class="fa fa-home" style="color:white
+    "></i></a></li>
+    <li><a href="korean.html">한국</a></li>
+    <li><a href="japan.html">일본</a></li>
+    <li><a href="BGM.html" class="active">BGM</a></li>
+  </ul>
   <h1>BGM</h1>
   <p>가사가 없는 음악의 모음입니다.</p>
+
+
   <h2>Mili</h2>
-  <h3>Nine point eight</h3>
-  <audio controls>
-        <source src="Song/BGM/Mili/Nine Point Eight.mp3" type="audio/mpeg">
-        Your browser does not support the audio tag - Nine Point Eight
+  <div class="sing">
+      <h3>Nine point eight</h3>
+      <audio controls>
+            <source src="Song/BGM/Mili/Nine Point Eight.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag - Nine Point Eight
       </audio>
-  <h3>YUBIKIRI GENMAN</h3>
-  <audio controls>
-        <source src="Song/BGM/Mili/YUBIKIRI GENMAN.mp3" type="audio/mpeg">
-        Your browser does not support the audio tag. - YUBIKIRI GENMAN!!
+    </div>
+  <div class="sing">
+      <h3>YUBIKIRI GENMAN</h3>
+      <audio controls>
+            <source src="Song/BGM/Mili/YUBIKIRI GENMAN.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag. - YUBIKIRI GENMAN!!
       </audio>
-  <h3>World.execute(me)</h3>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/cn4M-fH08XY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  <div class="sing">
+    <h3>World.execute(me)</h3>
+      <div class="youtube">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/cn4M-fH08XY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+  </div>
+
   <h2>Undertale</h2>
-  <h3>Memory</h3>
-  <audio controls>
-        <source src="Song/BGM/Undertale/34 Memory.mp3" type="audio/mpeg">
-        Your browser does not support the audio tag. - Q&A Recital!!
-      </audio>
-  <h3>Undertale</h3>
-  <audio controls>
-        <source src="Song/BGM/Undertale/71 Undertale.mp3" type="audio/mpeg">
-          Your brower has error - Undertale
-      </audio>
-  <h3>Hopes and Dreams</h3>
-  <audio controls>
-        <source src="Song/BGM/Undertale/87 Hopes and Dreams.mp3" type="audio/mpeg">
-          Your browser has error - Hopes and Dreams
-      </audio>
-  <h3>SAVE the World</h3>
-  <audio controls>
-        <source src="Song/BGM/Undertale/89 SAVE the World.mp3" tyep="audio/mpeg">
-          Your browser has error - SAVE the World
-      </audio>
-  <h3>MEGALOVANIA</h3>
-  <audio controls>
-      <source src="Song/BGM/Undertale/100 MEGALOVANIA.mp3" tyep="audio/mpeg">
-        Your browser has error - MEGALOVANIA
+  <div class="sing">
+    <h3>Memory</h3>
+    <audio controls>
+          <source src="Song/BGM/Undertale/34 Memory.mp3" type="audio/mpeg">
+          Your browser does not support the audio tag. - Q&A Recital!!
     </audio>
+  </div>
+  <div class="sing">
+    <h3>Undertale</h3>
+    <audio controls>
+          <source src="Song/BGM/Undertale/71 Undertale.mp3" type="audio/mpeg">
+            Your brower has error - Undertale
+    </audio>
+  </div>
+  <div class="sing">
+    <h3>Hopes and Dreams</h3>
+    <audio controls>
+          <source src="Song/BGM/Undertale/87 Hopes and Dreams.mp3" type="audio/mpeg">
+            Your browser has error - Hopes and Dreams
+    </audio>
+  </div>
+  <div class="sing">
+    <h3>SAVE the World</h3>
+    <audio controls>
+          <source src="Song/BGM/Undertale/89 SAVE the World.mp3" tyep="audio/mpeg">
+            Your browser has error - SAVE the World
+    </audio>
+  </div>
+  <div class="sing">
+    <h3>MEGALOVANIA</h3>
+    <audio controls>
+        <source src="Song/BGM/Undertale/100 MEGALOVANIA.mp3" tyep="audio/mpeg">
+          Your browser has error - MEGALOVANIA
+    </audio>
+  </div>
+
 </body>

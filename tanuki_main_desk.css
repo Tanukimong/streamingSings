@@ -1,3 +1,11 @@
+/* Font download */
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body{
+  font-family: 'Noto Sans KR', serif;
+}
+
 li{
   font-size: 23px;
   color: black;
