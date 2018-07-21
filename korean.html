@@ -20,6 +20,18 @@
     <li><a href="BGM.html">BGM</a></li>
   </ul>
   <h1>한국 노래</h1>
+  <input type="button" value="day" onclick="
+    var target = document.querySelector('body').style;
+  if(this.value === 'day')
+  { this.value = 'night';
+    target.backgroundColor = '#222';
+    target.color = 'white';
+  }else{
+    this.value = 'day';
+    target.backgroundColor = 'white';
+    target.color = 'black';
+  }
+  ">
   <h2>10cm</h2>
   <div class="sing">
     <h3>폰서트</h3>
